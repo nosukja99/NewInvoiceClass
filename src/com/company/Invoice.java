@@ -25,15 +25,6 @@ public class Invoice {
         return items;
     }
 
-    public double subTotalTaxable()
-    {
-        return 0;
-    }
-
-    public double subTotalUnTaxable()
-    {
-        return 0;
-    }
 
     public String display(ArrayList<Item> items)
     {

@@ -5,15 +5,6 @@ public class Item {
     String itemCode;
     int qty;
     String description;
-
-    public boolean isTaxable() {
-        return taxable;
-    }
-
-    public void setTaxable(boolean taxable) {
-        this.taxable = taxable;
-    }
-
     double price;
     boolean taxable;
 
@@ -68,5 +59,13 @@ public class Item {
     {
         double total = price*qty;
         return total;
+    }
+
+    public boolean isTaxable() {
+        return taxable;
+    }
+
+    public void setTaxable(boolean taxable) {
+        this.taxable = taxable;
     }
 }
